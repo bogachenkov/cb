@@ -1,0 +1,15 @@
+
+.posts_animation-enter {
+  opacity: 0;
+}
+.posts_animation-enter.posts_animation-enter-active {
+  opacity: 1;
+  transition: opacity 600ms ease-in-out;
+}
+.posts_animation-leave {
+  transform: translate(0%);
+}
+.posts_animation-leave.posts_animation-leave-active {
+  transform: translate(-150%);
+  transition: transform 300ms ease-in-out;
+}

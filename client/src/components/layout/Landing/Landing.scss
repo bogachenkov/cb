@@ -1,0 +1,21 @@
+.Landing {
+
+  background: transparent;
+
+  @media screen and (min-width: 769px) {
+    padding-top: 60px;
+  }
+
+  &-card {
+    margin: 30px auto;
+    width: 80%;
+    padding: 50px;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px 1px #eee;
+  }
+
+  &-text {
+    color: #fff;
+  }
+}

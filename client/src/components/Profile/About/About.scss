@@ -1,0 +1,25 @@
+.About {
+  border: none;
+  table-layout: fixed;
+  width: 100%;
+  font-size: 14px;
+
+  .col1 {
+    width: 120px;
+  }
+
+  .col2 {
+    width: 250px;
+  }
+
+  td {
+    padding-bottom: 25px;
+  }
+
+  &-section {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 25px 0;
+    text-transform: uppercase;
+  }
+}

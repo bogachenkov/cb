@@ -1,0 +1,32 @@
+.Template {
+  &-pattern {
+    background: #fafafa;
+    position: fixed;
+    right: 0;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    display: none;
+
+    @media screen and (min-width: 1024px) {
+      display: block;
+    }
+  }
+
+  &-sidebar {
+    display: none;
+    padding: 55px 0;
+    border-left: 2px solid whitesmoke;
+
+    @media screen and (min-width: 1024px) {
+      display: block;
+    }
+  }
+
+  &-main {
+    min-height: calc(100vh - 44px);
+    background: #fff;
+    padding: 55px 0;
+  }
+
+}

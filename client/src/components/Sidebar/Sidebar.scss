@@ -1,0 +1,36 @@
+.sidebar {
+  padding: 0 0 0 10px;
+  position: fixed;
+
+
+  &__header {
+    text-align: center;
+  }
+
+  &__avatar {
+    border-radius: 50%;
+    padding: 5px;
+    // background-color: whitesmoke;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    width: 160px;
+    height: 160px;
+  }
+
+  &__name {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .submenu {
+    display: none;
+
+    a.active {
+      color: #6002ee;
+    }
+  }
+
+  .menu .menu-list .is-active + .submenu {
+    display: block;
+  }
+
+}

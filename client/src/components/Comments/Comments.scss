@@ -1,0 +1,15 @@
+
+.comments_animation-enter {
+  transform: translate(100%);
+}
+.comments_animation-enter.comments_animation-enter-active {
+  transform: translate(0%);
+  transition: transform 300ms ease-in-out;
+}
+.comments_animation-leave {
+  transform: translate(0%);
+}
+.comments_animation-leave.comments_animation-leave-active {
+  transform: translate(-150%);
+  transition: transform 300ms ease-in-out;
+}
